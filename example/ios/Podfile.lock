@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_plugin_join_qq_group (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_plugin_join_qq_group (from `.symlinks/plugins/flutter_plugin_join_qq_group/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_plugin_join_qq_group:
+    :path: ".symlinks/plugins/flutter_plugin_join_qq_group/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_plugin_join_qq_group: f7c82c5bfffae1e281ef3ecb7b39de6700b36a8b
+
+PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+
+COCOAPODS: 1.6.1

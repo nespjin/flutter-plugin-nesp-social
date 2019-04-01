@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61deb64a-5f5d-4ca4-8a43-31067346ea72" name="Default Changelist" comment="" />
+    <list default="true" id="61deb64a-5f5d-4ca4-8a43-31067346ea72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/nesp/sdk/flutter/flutter_plugin_join_qq_group/FlutterPluginJoinQqGroupPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/nesp/sdk/flutter/flutter_plugin_join_qq_group/FlutterPluginJoinQqGroupPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/flutter_plugin_join_qq_group.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/flutter_plugin_join_qq_group.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/lib/flutter_plugin_join_qq_group.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/lib/flutter_plugin_join_qq_group.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_plugin_join_qq_group/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_plugin_join_qq_group.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_plugin_join_qq_group.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterPluginJoinQqGroupPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterPluginJoinQqGroupPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterPluginJoinQqGroupPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterPluginJoinQqGroupPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftFlutterPluginJoinQqGroupPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftFlutterPluginJoinQqGroupPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_plugin_join_qq_group.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_plugin_join_qq_group.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -42,43 +73,126 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1767532286">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dart" value="6" />
+          <entry key="kt" value="1" />
+          <entry key="m" value="1" />
+          <entry key="swift" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dart" value="6" />
+          <entry key="Kotlin" value="1" />
+          <entry key="ObjectiveC" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dart" value="500" />
+          <entry key="kt" value="181" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dart" value="500" />
+          <entry key="Kotlin" value="181" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/flutter_plugin_join_qq_group.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/nesp/sdk/flutter/flutter_plugin_join_qq_group/FlutterPluginJoinQqGroupPlugin.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
-                <element signature="e#59#321#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/services/platform_channel.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="292" column="12" selection-start-line="292" selection-start-column="12" selection-end-line="292" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/nesp/sdk/flutter/flutter_plugin_join_qq_group/FlutterPluginJoinQqGroupPlugin.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding>
+                <element signature="e#59#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/FlutterPluginJoinQqGroupPlugin.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftFlutterPluginJoinQqGroupPlugin.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
-    <option name="y" value="156" />
-    <option name="width" value="989" />
-    <option name="height" value="538" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/example/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/flutter_plugin_join_qq_group.dart" />
+        <option value="$PROJECT_DIR$/android/src/main/kotlin/com/nesp/sdk/flutter/flutter_plugin_join_qq_group/FlutterPluginJoinQqGroupPlugin.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="193" />
+    <option name="y" value="23" />
+    <option name="width" value="989" />
+    <option name="height" value="638" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <autoscrollFromSource AndroidView="true" ProjectPane="true" />
@@ -89,67 +203,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="flutter_plugin_join_qq_group" type="1abcf292:AndroidViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group_example_android" type="e9137016:NonAndroidModuleNode" />
+              <item name="flutter-plugin-join-qq-group" type="1abcf292:AndroidViewProjectNode" />
+              <item name="flutter_plugin_join_qq_group" type="e9137016:NonAndroidModuleNode" />
             </path>
             <path>
-              <item name="flutter_plugin_join_qq_group" type="1abcf292:AndroidViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group_example_android" type="e9137016:NonAndroidModuleNode" />
+              <item name="flutter-plugin-join-qq-group" type="1abcf292:AndroidViewProjectNode" />
+              <item name="flutter_plugin_join_qq_group" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
             </path>
           </expand>
           <select />
         </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="flutter_plugin_join_qq_group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_plugin_join_qq_group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_plugin_join_qq_group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_plugin_join_qq_group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_plugin_join_qq_group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_plugin_join_qq_group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_plugin_join_qq_group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_plugin_join_qq_group" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="PackagesPane">
         <subPane>
@@ -167,12 +231,60 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flutter-plugin-join-qq-group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter-plugin-join-qq-group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter-plugin-join-qq-group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter-plugin-join-qq-group" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter-plugin-join-qq-group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter-plugin-join-qq-group" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter-plugin-join-qq-group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter-plugin-join-qq-group" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="flutter_plugin_join_qq_group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter-plugin-join-qq-group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter-plugin-join-qq-group" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter-plugin-join-qq-group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter-plugin-join-qq-group" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter-plugin-join-qq-group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter-plugin-join-qq-group" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-excluded-files" value="false" />
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/flutter/bin/cache/artifacts/engine/android-arm-release/linux-x64" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -201,9 +313,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="156" width="989" height="538" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34994698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25528702" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -211,6 +324,7 @@
       <window_info id="Build Variants" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3295129" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.32804233" />
       <window_info anchor="bottom" id="TODO" order="2" />
@@ -236,9 +350,7 @@
     <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/flutter_plugin_join_qq_group_android.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/android/flutter_plugin_join_qq_group_android.iml" />
     <entry file="jar://$USER_HOME$/flutter/bin/cache/artifacts/engine/android-arm/flutter.jar!/io/flutter/plugin/common/MethodChannel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -253,24 +365,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/flutter_plugin_join_qq_group.dart">
+    <entry file="file://$USER_HOME$/flutter/bin/cache/dart-sdk/lib/core/bool.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="169">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/services/platform_channel.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="292" column="12" selection-start-line="292" selection-start-column="12" selection-end-line="292" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/framework.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="984" column="11" selection-start-line="984" selection-start-column="11" selection-end-line="984" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftFlutterPluginJoinQqGroupPlugin.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/nesp/sdk/flutter/flutter_plugin_join_qq_group/FlutterPluginJoinQqGroupPlugin.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="223">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
-            <element signature="e#59#321#0" expanded="true" />
+            <element signature="e#59#374#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/flutter_plugin_join_qq_group.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/FlutterPluginJoinQqGroupPlugin.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20" />
       </provider>
     </entry>
   </component>

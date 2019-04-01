@@ -13,6 +13,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
+  bool _isCalledQQ = false;
+  String _callQQMessage = 'no call';
 
   @override
   void initState() {
@@ -30,6 +32,18 @@ class _MyAppState extends State<MyApp> {
       platformVersion = 'Failed to get platform version.';
     }
 
+    bool isCalledQQ;
+    String callQQMessage;
+    try {
+      isCalledQQ = await FlutterPluginJoinQqGroup.joinQQGroup();
+    } on PlatformException catch (e) {
+      isCalledQQ = false;
+      callQQMessage =
+          'Exception Code:${e.code}\n'
+              'Message:${e.message}\n'
+              'Details:${e.details}';
+    }
+
     // If the widget was removed from the tree while the asynchronous platform
     // message was in flight, we want to discard the reply rather than calling
     // setState to update our non-existent appearance.
@@ -37,6 +51,8 @@ class _MyAppState extends State<MyApp> {
 
     setState(() {
       _platformVersion = platformVersion;
+      _isCalledQQ = isCalledQQ;
+      _callQQMessage = callQQMessage;
     });
   }
 
@@ -48,7 +64,9 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('Running on: $_platformVersion\n'),
+          child: Text('Running on: $_platformVersion\n'
+              'isCalledQQ:$_isCalledQQ\n'
+              'callQQMessage:$_callQQMessage'),
         ),
       ),
     );

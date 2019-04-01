@@ -10,4 +10,13 @@ class FlutterPluginJoinQqGroup {
     final String version = await _channel.invokeMethod('getPlatformVersion');
     return version;
   }
+
+  static Future<bool> joinQQGroup({String androidKey,String iosKey, String groupUin}) async {
+    final bool isSuccess = await _channel.invokeMethod('joinQQGroup', {
+      "androidKey": androidKey,
+      "iosKey": iosKey,
+      "groupUin": groupUin,
+    });
+    return isSuccess;
+  }
 }

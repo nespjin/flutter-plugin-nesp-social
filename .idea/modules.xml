@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flutter_plugin_join_qq_group.iml" filepath="$PROJECT_DIR$/flutter_plugin_join_qq_group.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/flutter_plugin_join_qq_group_android.iml" filepath="$PROJECT_DIR$/android/flutter_plugin_join_qq_group_android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/android/flutter_plugin_join_qq_group_example_android.iml" filepath="$PROJECT_DIR$/example/android/flutter_plugin_join_qq_group_example_android.iml" />
     </modules>
   </component>
 </project>
