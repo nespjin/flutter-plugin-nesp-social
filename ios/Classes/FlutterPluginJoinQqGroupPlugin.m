@@ -1,14 +1,14 @@
-#import "FlutterPluginJoinQqGroupPlugin.h"
+#import "FlutterPluginNespSocial.h"
 #import <UIKit/UIKit.h>
 #import <flutter_plugin_join_qq_group/flutter_plugin_join_qq_group-Swift.h>
 
-@implementation FlutterPluginJoinQqGroupPlugin
+@implementation FlutterPluginNespSocial
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     FlutterMethodChannel* channel = [FlutterMethodChannel
                                      methodChannelWithName:@"flutter_plugin_nesp_social"
                                      binaryMessenger:[registrar messenger]];
-    FlutterPluginJoinQqGroupPlugin* instance = [[FlutterPluginJoinQqGroupPlugin alloc] init];
+    FlutterPluginNespSocial* instance = [[FlutterPluginNespSocial alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];
 }
 
@@ -56,8 +56,8 @@
 @end
 
 
-//@implementation FlutterPluginJoinQqGroupPlugin
+//@implementation FlutterPluginNespSocial
 //+ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-//  [SwiftFlutterPluginJoinQqGroupPlugin registerWithRegistrar:registrar];
+//  [SwiftFlutterPluginNespSocial registerWithRegistrar:registrar];
 //}
 //@end

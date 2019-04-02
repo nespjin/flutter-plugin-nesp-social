@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftFlutterPluginJoinQqGroupPlugin: NSObject, FlutterPlugin {
+public class SwiftFlutterPluginNespSocial: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "flutter_plugin_nesp_social", binaryMessenger: registrar.messenger())
-    let instance = SwiftFlutterPluginJoinQqGroupPlugin()
+    let instance = SwiftFlutterPluginNespSocial()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

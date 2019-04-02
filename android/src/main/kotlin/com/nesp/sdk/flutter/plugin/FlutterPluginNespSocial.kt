@@ -1,4 +1,4 @@
-package com.nesp.sdk.flutter.flutter_plugin_join_qq_group
+package com.nesp.sdk.flutter.plugin
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,7 +13,7 @@ import android.content.ComponentName
 import android.content.pm.PackageManager
 
 
-class FlutterPluginJoinQqGroupPlugin : MethodCallHandler {
+class FlutterPluginNespSocial : MethodCallHandler {
 
     companion object {
         @SuppressLint("StaticFieldLeak")
@@ -23,7 +23,7 @@ class FlutterPluginJoinQqGroupPlugin : MethodCallHandler {
         fun registerWith(registrar: Registrar) {
             context = registrar.context()
             val channel = MethodChannel(registrar.messenger(), "flutter_plugin_nesp_social")
-            channel.setMethodCallHandler(FlutterPluginJoinQqGroupPlugin())
+            channel.setMethodCallHandler(FlutterPluginNespSocial())
         }
     }
 
