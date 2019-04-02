@@ -5,7 +5,7 @@ A Flutter plugin for social.
 [English](./README.md)
 
 ***
-没有IOS开发环境，所以目前仅支持==Android平台==，欢迎贡献IOS平台代码
+没有IOS开发环境，所以目前仅支持<font color="red" >Android平台</font>，欢迎贡献IOS平台代码
 ****
 
 ## 截图
