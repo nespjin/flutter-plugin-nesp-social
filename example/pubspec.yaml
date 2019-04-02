@@ -1,5 +1,5 @@
-name: flutter_plugin_join_qq_group_example
-description: Demonstrates how to use the flutter_plugin_join_qq_group plugin.
+name: flutter_nesp_social_example
+description: Demonstrates how to use the flutter_nesp_social plugin.
 publish_to: 'none'
 
 environment:

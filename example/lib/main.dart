@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_nesp_social/flutter_plugin_nesp_social.dart';
+import 'package:flutter_nesp_social/flutter_nesp_social.dart';
 
 void main() => runApp(MyApp());
 

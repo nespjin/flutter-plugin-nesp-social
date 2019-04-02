@@ -1,8 +1,9 @@
 name: flutter_nesp_social
 description: A Flutter plugin for social.
 version: 0.0.1
-author: 靳兆鲁
-homepage:
+authors:
+  - 靳兆鲁 <1756404649@qq.com>
+homepage: https://github.com/ns-jin/flutter-plugin-nesp-social
 documentation: https://github.com/ns-jin/flutter-plugin-nesp-social
 
 environment:

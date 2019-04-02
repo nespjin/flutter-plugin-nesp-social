@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_nesp_social/flutter_plugin_nesp_social.dart';
+import 'package:flutter_nesp_social/flutter_nesp_social.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('flutter_plugin_join_qq_group');
