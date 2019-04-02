@@ -106,7 +106,3 @@ try {
     }
 
 ```
- ![enter description here][1]
-
-
-  [1]: ./attachments/README-ZH-cn_1.md "README-ZH-cn"
