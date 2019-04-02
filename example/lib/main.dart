@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Join QQ group example'),
+          title: const Text('Nesp Social example'),
         ),
         body: Center(
             child: Column(
