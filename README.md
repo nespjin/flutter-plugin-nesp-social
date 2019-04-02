@@ -25,7 +25,7 @@ There is no IOS development environment, so it only supports <font color="red" >
 > ### Join QQ Group no key
 > #### (This is a case of error when calling)
 > <img height="540" width="270" align=center src = "./doc/images/android-join-qq-group-no-key.gif"/>
-![enter description here][1]
+
 ***
 
 > ### Open Weibo User
