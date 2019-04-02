@@ -1,7 +1,7 @@
-name: flutter_plugin_join_qq_group
-description: A Flutter plugin for join QQ group.   
+name: flutter_nesp_social
+description: A Flutter plugin for social.
 version: 0.0.1
-author:
+author: 靳兆鲁
 homepage:
 
 environment:

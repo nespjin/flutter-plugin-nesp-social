@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_plugin_join_qq_group:
+  flutter_nesp_social:
     path: ../
 
 # For information on the generic Dart part of this file, see the

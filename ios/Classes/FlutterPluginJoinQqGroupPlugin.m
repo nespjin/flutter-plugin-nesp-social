@@ -6,7 +6,7 @@
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     FlutterMethodChannel* channel = [FlutterMethodChannel
-                                     methodChannelWithName:@"flutter_plugin_join_qq_group"
+                                     methodChannelWithName:@"flutter_plugin_nesp_social"
                                      binaryMessenger:[registrar messenger]];
     FlutterPluginJoinQqGroupPlugin* instance = [[FlutterPluginJoinQqGroupPlugin alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];
