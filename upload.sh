@@ -30,7 +30,7 @@ function printHelp(){
 echo -e "\033[${backColor};${textColor}m $1 ${helpText} \033[0m"
 }
 
-if [   "$1" = "" ] ||  [ "$1" = "-h"  ];
+if [ "$1" = "-h"  ];
 then
 printHelp
 exit 1
@@ -57,5 +57,6 @@ do
 done 
 
 git add --all 
-git commit -am $commit
+# git commit -am $commit
+git commit
 git push origin $branch
