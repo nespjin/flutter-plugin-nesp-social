@@ -2,6 +2,8 @@
 
 A Flutter plugin for social.
 
+支持群：428741525
+
 [English](./README.md)
 
 ***
