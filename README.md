@@ -2,6 +2,8 @@
 
 A Flutter plugin for social.
 
+Support QQ Group:428741525
+
 [中文](./README-ZH-cn.md)
 
 ***
