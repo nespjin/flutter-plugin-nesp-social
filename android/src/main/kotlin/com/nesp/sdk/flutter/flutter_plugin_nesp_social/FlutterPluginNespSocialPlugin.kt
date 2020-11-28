@@ -1,33 +1,34 @@
-package com.nesp.sdk.flutter.plugin
+package com.nesp.sdk.flutter.flutter_plugin_nesp_social
 
-import android.annotation.SuppressLint
+import android.content.ComponentName
 import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
+import androidx.annotation.NonNull
+
+import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
-import io.flutter.plugin.common.PluginRegistry.Registrar
-import android.net.Uri
-import android.content.Intent
-import android.content.ComponentName
-import android.content.pm.PackageManager
 
+/** FlutterPluginNespSocialPlugin */
+class FlutterPluginNespSocialPlugin : FlutterPlugin, MethodCallHandler {
+    /// The MethodChannel that will the communication between Flutter and native Android
+    ///
+    /// This local reference serves to register the plugin with the Flutter Engine and unregister it
+    /// when the Flutter Engine is detached from the Activity
+    private lateinit var channel: MethodChannel
+    private lateinit var context: Context
 
-class FlutterPluginNespSocial : MethodCallHandler {
-
-    companion object {
-        @SuppressLint("StaticFieldLeak")
-        private var context: Context? = null
-
-        @JvmStatic
-        fun registerWith(registrar: Registrar) {
-            context = registrar.context()
-            val channel = MethodChannel(registrar.messenger(), "flutter_plugin_nesp_social")
-            channel.setMethodCallHandler(FlutterPluginNespSocial())
-        }
+    override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_plugin_nesp_social")
+        channel.setMethodCallHandler(this)
+        context = flutterPluginBinding.applicationContext
     }
 
-    override fun onMethodCall(call: MethodCall, result: Result) {
+    override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
         if (call.method == "joinQQGroup") {
             val key: String? = call.argument("androidKey")
             if (key == null || key.isEmpty()) {
@@ -91,12 +92,17 @@ class FlutterPluginNespSocial : MethodCallHandler {
         }
     }
 
+    override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
+        channel.setMethodCallHandler(null)
+    }
+
     private fun joinQQFriend(qqFriendNumber: String): Boolean {
         if (!isAppInstalled("com.tencent.mobileqq")
                 && !isAppInstalled("com.tencent.tim")) return false
-        context!!.startActivity(
-                Intent(Intent.ACTION_VIEW,
-                        Uri.parse("mqqwpa://im/chat?chat_type=wpa&uin=$qqFriendNumber&version=1")))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("mqqwpa://im/chat?chat_type=wpa&uin=$qqFriendNumber&version=1"))
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+        context.startActivity(intent)
         return true
     }
 
@@ -111,8 +117,9 @@ class FlutterPluginNespSocial : MethodCallHandler {
         intent.data = Uri.parse("mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26k%3D$key")
         // 此Flag可根据具体产品需要自定义，如设置，则在加群界面按返回，返回手Q主界面，不设置，按返回会返回到呼起产品界面
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
         return try {
-            context!!.startActivity(intent)
+            context.startActivity(intent)
             true
         } catch (e: Exception) {
             // 未安装手Q或安装的版本不支持
@@ -134,9 +141,10 @@ class FlutterPluginNespSocial : MethodCallHandler {
         val intent = Intent()
         val componentName = ComponentName(weiboPackageName, "com.sina.weibo.page.ProfileInfoActivity")
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
         intent.component = componentName
         intent.putExtra("uid", uidValue)
-        context!!.startActivity(intent)
+        context.startActivity(intent)
         return true
     }
 
@@ -147,10 +155,11 @@ class FlutterPluginNespSocial : MethodCallHandler {
 
         val intent = Intent()
         val componentName = ComponentName(androidPackageName, androidClassName)
-//        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
         intent.component = componentName
         try {
-            context!!.startActivity(intent)
+            context.startActivity(intent)
         } catch (e: Exception) {
             throw Exception(e)
         }
@@ -165,12 +174,13 @@ class FlutterPluginNespSocial : MethodCallHandler {
      * @param packageName 应用包名
      */
     private fun isAppInstalled(packageName: String): Boolean {
-        val packageManager: PackageManager = context!!.packageManager
-        packageManager.getInstalledPackages(0)?.forEach { packageInfo ->
+        val packageManager: PackageManager = context.packageManager
+        packageManager.getInstalledPackages(0).forEach { packageInfo ->
             if (packageInfo.packageName == packageName) {
                 return true
             }
         }
         return false
     }
+
 }

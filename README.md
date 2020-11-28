@@ -7,7 +7,7 @@ Support QQ Group:428741525
 [中文](./README-ZH-cn.md)
 
 ***
-There is no IOS development environment, so it only supports**Android platform**  at present. Welcome to contribute IOS platform code
+This plugin supports Android and iOS.
 
 ****
 

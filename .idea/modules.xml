@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flutter_plugin_nesp_social.iml" filepath="$PROJECT_DIR$/flutter_plugin_nesp_social.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/flutter_plugin_nesp_social_android.iml" filepath="$PROJECT_DIR$/android/flutter_plugin_nesp_social_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/flutter_plugin_nesp_social_example_android.iml" filepath="$PROJECT_DIR$/example/android/flutter_plugin_nesp_social_example_android.iml" />
     </modules>
   </component>
 </project>

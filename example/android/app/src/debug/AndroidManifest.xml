@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nesp.sdk.flutter.flutter_plugin_join_qq_group_example">
+    package="com.nesp.sdk.flutter.flutter_plugin_nesp_social_example">
     <!-- Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->
