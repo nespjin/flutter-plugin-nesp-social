@@ -6,7 +6,7 @@ buildscript {
     repositories {
         maven{ url 'https://maven.aliyun.com/repository/google' }
         maven{ url 'https://maven.aliyun.com/repository/jcenter' }
-        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+        maven{ url 'https://maven.aliyun.com/nexus/content/groups/public'}
         google()
         jcenter()
     }
@@ -21,7 +21,7 @@ rootProject.allprojects {
     repositories {
         maven{ url 'https://maven.aliyun.com/repository/google' }
         maven{ url 'https://maven.aliyun.com/repository/jcenter' }
-        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+        maven{ url 'https://maven.aliyun.com/nexus/content/groups/public'}
         google()
         jcenter()
     }
