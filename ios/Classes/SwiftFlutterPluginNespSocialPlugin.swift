@@ -30,7 +30,7 @@ public class SwiftFlutterPluginNespSocialPlugin: NSObject, FlutterPlugin {
             
             let callResult = joinQQGroup(groupUin: groupUin, iosKey: iosKey)
             if callResult.isSuccess {
-                result("")
+                result(true)
             } else {
                 result(FlutterError.init(code: "Error when call QQ", message: callResult.error.rawValue, details: "groupUin:\(groupUin)\niosKey:\(iosKey)"))
             }
@@ -50,7 +50,7 @@ public class SwiftFlutterPluginNespSocialPlugin: NSObject, FlutterPlugin {
             
             let callResult = openWeiboUser(uid: uid)
             if callResult.isSuccess {
-                result("")
+                result(true)
             } else {
                 result(FlutterError.init(code: "Error when call weibo", message: callResult.error.rawValue, details: "uid:\(uid)"))
             }
@@ -69,7 +69,7 @@ public class SwiftFlutterPluginNespSocialPlugin: NSObject, FlutterPlugin {
             
             let callResult = joinQQFriend(qqFriendNumber: qqFriendNumber)
             if callResult.isSuccess {
-                result("")
+                result(true)
             } else {
                 result(FlutterError.init(code: "Error when call joinQQFriend", message: callResult.error.rawValue, details: "qqFriendNumber:\(qqFriendNumber)"))
             }
@@ -88,7 +88,7 @@ public class SwiftFlutterPluginNespSocialPlugin: NSObject, FlutterPlugin {
             
             let callResult = openOtherApp(iosAppUrl: iosAppUrl)
             if callResult.isSuccess {
-                result("")
+                result(true)
             } else {
                 result(FlutterError.init(code: "Error when call openOtherApp", message: callResult.error.rawValue, details: "iosAppUrl:\(iosAppUrl)"))
             }
