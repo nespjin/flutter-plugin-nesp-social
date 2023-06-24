@@ -1,11 +1,10 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_plugin_nesp_social/flutter_plugin_nesp_social.dart';
 
 void main() => runApp(MyApp());
-
 
 class MyApp extends StatefulWidget {
   @override
@@ -13,18 +12,17 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   //QQ好友号码
   final String qqFriendNumber = "2021785540";
 
   //QQ群Android平台Key
-  String qqGroupAndroidKey;
+  String? qqGroupAndroidKey;
 
   //QQ群号码
   final String qqGroupUin = '428741525';
 
   //QQ群IOS平台Key
-  String qqGroupIosKey;
+  String? qqGroupIosKey;
 
   //微博UID
   final String weiboUid = "3619635672";
@@ -53,73 +51,73 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Padding(
-                  padding: EdgeInsets.only(top: 20),
-                  child: Text(
-                    'isCalledApp:$_isCalledApp\n\n'
-                        'callAppMessage:\n$_callAppMessage',
-                    style: TextStyle(fontSize: 16),
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.only(top: 20),
+              child: Text(
+                'isCalledApp:$_isCalledApp\n\n'
+                'callAppMessage:\n$_callAppMessage',
+                style: TextStyle(fontSize: 16),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(top: 50, bottom: 20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  NespButton(
+                    text: "加好友\n$qqFriendNumber",
+                    onPressed: joinQQFriend,
                   ),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(top: 50, bottom: 20),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      NespButton(
-                        text: "加好友\n$qqFriendNumber",
-                        onPressed: joinQQFriend,
-                      ),
-                      Padding(
-                        padding: EdgeInsets.only(left: 10),
-                        child: NespButton(
-                          text: "加群\n$qqGroupUin",
-                          onPressed: () {
-                            qqGroupAndroidKey = 'olKPAVYzuXrYIIJfRoHKYQTVJDqDW0O7';
-                            qqGroupIosKey =
+                  Padding(
+                    padding: EdgeInsets.only(left: 10),
+                    child: NespButton(
+                      text: "加群\n$qqGroupUin",
+                      onPressed: () {
+                        qqGroupAndroidKey = 'olKPAVYzuXrYIIJfRoHKYQTVJDqDW0O7';
+                        qqGroupIosKey =
                             '707e806c7f0192ef834b79229784166688c8df0bfd6b7fab25003a6212c7417c';
-                            joinQQGroup();
-                          },
-                        ),
-                      ),
-                      Padding(
-                          padding: EdgeInsets.only(left: 10),
-                          child: NespButton(
-                            text: "Join QQ group\nwithout key",
-                            onPressed: () {
-                              qqGroupAndroidKey = null;
-                              qqGroupIosKey = null;
-                              joinQQGroup();
-                            },
-                          )),
-                    ],
-                  ),
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    NespButton(
-                      text: "打开微博用户",
-                      onPressed: openWeiboUser,
+                        joinQQGroup();
+                      },
                     ),
-                  ],
-                ),
-                Padding(
-                  padding: EdgeInsets.only(top: 20),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      NespButton(
-                        text: "打开其他应用",
-                        onPressed: openOtherApp,
-                      ),
-                    ],
                   ),
+                  Padding(
+                      padding: EdgeInsets.only(left: 10),
+                      child: NespButton(
+                        text: "Join QQ group\nwithout key",
+                        onPressed: () {
+                          qqGroupAndroidKey = null;
+                          qqGroupIosKey = null;
+                          joinQQGroup();
+                        },
+                      )),
+                ],
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                NespButton(
+                  text: "打开微博用户",
+                  onPressed: openWeiboUser,
                 ),
               ],
-            )),
+            ),
+            Padding(
+              padding: EdgeInsets.only(top: 20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  NespButton(
+                    text: "打开其他应用",
+                    onPressed: openOtherApp,
+                  ),
+                ],
+              ),
+            ),
+          ],
+        )),
       ),
     );
   }
@@ -182,9 +180,9 @@ class _MyAppState extends State<MyApp> {
 
     try {
       isCalledQQ = await FlutterNespSocial.joinQQGroup(
-        androidKey: qqGroupAndroidKey,
+        androidKey: qqGroupAndroidKey ?? '',
         groupUin: qqGroupUin,
-        iosKey: qqGroupIosKey,
+        iosKey: qqGroupIosKey ?? '',
       );
 
       callQQMessage = 'qqGroupAndroidKey: $qqGroupAndroidKey'
@@ -247,18 +245,20 @@ class NespButton extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;
 
-  NespButton({@required this.text, this.onPressed});
+  NespButton({
+    required this.text,
+    required this.onPressed,
+  });
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return MaterialButton(
-        child: Text(text),
-        elevation: 2,
-        height: 50,
-        textColor: Colors.white,
-        color: Colors.blue,
-        onPressed: onPressed);
+      child: Text(text),
+      elevation: 2,
+      height: 50,
+      textColor: Colors.white,
+      color: Colors.blue,
+      onPressed: onPressed,
+    );
   }
-
 }

@@ -6,7 +6,8 @@ description: Demonstrates how to use the flutter_plugin_nesp_social plugin.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
