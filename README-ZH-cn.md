@@ -1,5 +1,11 @@
 # flutter_plugin_nesp_social
 
+**此仓库已被迁移至 [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) 并且将被删除!!!**
+
+**此仓库已被迁移至 [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) 并且将被删除!!!**
+
+**此仓库已被迁移至 [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) 并且将被删除!!!**
+
 A Flutter plugin for social.
 
 支持群：428741525
