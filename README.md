@@ -1,10 +1,10 @@
 # flutter_plugin_nesp_social
 
-**This repository has been moved to [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) and it will be deleted!!!**
+**This repository has been moved to [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) and will be deleted!!!**
 
-**This repository has been moved to [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) and it will be deleted!!!**
+**This repository has been moved to [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) and will be deleted!!!**
 
-**This repository has been moved to [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) and it will be deleted!!!**
+**This repository has been moved to [nesp_sdk_flutter_social](https://github.com/nespjin/nesp_sdk_flutter/tree/master/packages/nesp_sdk_flutter_social) and will be deleted!!!**
 
 
 
